@@ -1,12 +1,12 @@
 #include <graphics.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <conio.h>
+#include <iostream>
 
-int main(void)
+using namespace std;
+
+int main()
 {
-
    // NU MODIFICATI ACEST FISIER (INCA)
    // PUTETI SA IL FOLOSITI SA VA TESTATI PROPRIUL COD PE CARE IL SCRIETI IN CADRUL TASKURILOR
+   // DUPA CE ATI TESTAT
    return 0;
 }
