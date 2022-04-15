@@ -35,3 +35,5 @@
 .idea
 cmake-build-debug
 CMakeLists.txt
+Segments/Segments.depend
+Segments/Segments.layout
