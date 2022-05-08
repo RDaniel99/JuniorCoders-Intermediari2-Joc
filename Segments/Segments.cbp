@@ -32,8 +32,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="board.cpp" />
-		<Unit filename="board.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="point.cpp" />
 		<Unit filename="point.h" />
