@@ -1,5 +1,5 @@
-#ifndef H.GENERATOR
-#define H.GENERATOR
+#ifndef H_GENERATOR
+#define H_GENERATOR
 
 #include "point.h"
 #include <vector>

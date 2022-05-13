@@ -16,7 +16,7 @@ Point Generator::generatePoint()
     return Point(randomX, randomY);
 }
 
-vector <Point> Generator::generatePoint(int numberOfPoints)
+vector<Point> Generator::generatePoints(int numberOfPoints)
 {
     vector <Point> points;
 

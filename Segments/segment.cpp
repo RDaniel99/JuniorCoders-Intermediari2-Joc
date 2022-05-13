@@ -6,7 +6,7 @@ Segment::Segment (Point a, Point b)
 {
     this->a = a;
     this->b = b;
-
+}
 Point Segment::getA() const{
     return a;
 }
