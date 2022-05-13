@@ -1,5 +1,7 @@
 #include <graphics.h>
 #include <iostream>
+#include <vector>
+#include "generator.h"
 
 using namespace std;
 
@@ -11,10 +13,9 @@ int main()
     // PUTETI SA IL FOLOSITI SA VA TESTATI PROPRIUL COD PE CARE IL SCRIETI IN CADRUL TASKURILOR
     // DUPA CE ATI TESTAT, STERGETI CE ATI ADAUGAT AICI
 
-    #include "generator.h";
     Generator gen;
-    Point p = gen.generatePoint();
-    circle(p.getX(), p.getY(), 2);
+    vector<Point> p = gen.generatePoints(1);
+    circle(p[0].getX(), p[0].getY(), 2);
 
     getch();
     closegraph();

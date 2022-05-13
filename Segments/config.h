@@ -1,16 +1,16 @@
-#ifndef H.CONFIG
-#define H.CONFIG
+#ifndef H_CONFIG
+#define H_CONFIG
 
 #include <string>
 #include <graphics.h>
 
 using namespace std;
 
-const int WINDOWS_WIDTH = 600;
+const int WINDOW_WIDTH = 600;
 const int WINDOW_HEIGHT = 800;
 
 const string PLAYER_ONE_NAME = "Player1";
-const string PLAYER_TWO_NAME + "Player2";
+const string PLAYER_TWO_NAME = "Player2";
 
 const int PLAYER_ONE_COLOR = RED;
 const int PLAYER_TWO_COLOR = GREEN;
