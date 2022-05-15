@@ -32,11 +32,18 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="board.cpp" />
+		<Unit filename="board.h" />
+		<Unit filename="config.h" />
+		<Unit filename="generator.cpp" />
+		<Unit filename="generator.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="point.cpp" />
 		<Unit filename="point.h" />
 		<Unit filename="segment.cpp" />
 		<Unit filename="segment.h" />
+		<Unit filename="window.cpp" />
+		<Unit filename="window.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
