@@ -27,7 +27,6 @@ class Board{
 
     vector<Point> points;
     vector<Segment> segments;
-
 };
 
 #endif // H_BOARD
