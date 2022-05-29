@@ -1,18 +1,22 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef H_PLAYER
+#define H_PLAYER
 
+#include <string>
 
-class Player
-{
+using namespace std;
+
+class Player {
+
     public:
-        Player(int color);
+        Player();
+        Player(string name, int color);
 
         int getColor() const;
-
+        string getName() const;
 
     private:
         int color;
+        string name;
 };
 
-#endif // PLAYER_H
-
+#endif // H_PLAYER

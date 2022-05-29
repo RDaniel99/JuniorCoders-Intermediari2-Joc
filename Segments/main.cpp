@@ -1,17 +1,13 @@
-#include <graphics.h>
-#include <iostream>
+#include "appmanager.h"
 
 using namespace std;
 
 int main()
 {
-    initwindow(500, 500, "Segments Game");
 
-    // NU MODIFICATI ACEST FISIER (INCA)
-    // PUTETI SA IL FOLOSITI SA VA TESTATI PROPRIUL COD PE CARE IL SCRIETI IN CADRUL TASKURILOR
-    // DUPA CE ATI TESTAT, STERGETI CE ATI ADAUGAT AICI
+    AppManager app;
 
-    getch();
-    closegraph();
+    app.run();
+
     return 0;
 }

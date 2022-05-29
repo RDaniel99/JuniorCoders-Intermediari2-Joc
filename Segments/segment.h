@@ -1,13 +1,22 @@
+#ifndef SEGMENT_H
+#define SEGMENT_H
+
 #include "point.h"
+#include "graphics.h"
 
 class Segment
 {
-public:
-    Segment(Point a, Point b);
-    Point getA() const;
-    Point getB() const;
+    public:
+        Segment();
+        Segment(Point a,Point b);
+        Point getA() const;
+        Point getB() const;
 
-private:
-    Point a;   // first point
-    Point b;  // second point
+        void paint(int color = DEFAULT_COLOR) const;
+
+
+    private:
+        Point a,b;
 };
+
+#endif // SEGMENT_H
