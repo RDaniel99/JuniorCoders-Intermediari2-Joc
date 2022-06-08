@@ -1,25 +1,32 @@
 #ifndef H_POINT
 #define H_POINT
 
-enum PointStatus {
-    FREE = 0,
-    SELECTED,
-    BLOCKED
-};
+#include "graphics.h"
+#include "config.h"
 
 class Point {
 
 public:
+    enum Status {
+        FREE = 0,
+        SELECTED,
+        BLOCKED
+    };
+
     Point();
     Point(int x, int y);
-    void setStatus(PointStatus status);
     int getX() const;
     int getY() const;
-    PointStatus getStatus() const;
+    Status getStatus() const;
+    void setStatus(Status status);
+    bool isClicked(int x, int y) const;
+
+    void Paint(int color = DEFAULT_COLOR) const;
 
 private:
+
     int x, y;
-    PointStatus status;
+    Status status;
 };
 
 #endif // H_POINT

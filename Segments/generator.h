@@ -1,17 +1,19 @@
-#ifndef H.GENERATOR
-#define H.GENERATOR
+#ifndef H_GENERATOR
+#define H_GENERATOR
 
-#include "point.h"
 #include <vector>
+#include "point.h"
 #include <ctime>
 #include <cstdlib>
+#include "config.h"
 
 using namespace std;
 
 class Generator{
 public:
     Generator();
-    vector <Point> generatePoints(int numberOfPoints);
+    vector<Point> generatePoints(int numberOfPoints);
+    int NumberOfPoints();
 private:
     Point generatePoint();
 };

@@ -1,22 +1,26 @@
 #include "segment.h"
-#include "point.h"
-#include <graphics.h>
 
-Segment::Segment (Point a, Point b)
-{
+Segment::Segment() {}
+
+Segment::Segment (Point a, Point b) {
+
     this->a = a;
     this->b = b;
-
-Point Segment::getA() const{
-    return a;
 }
 
-Point Segment::getB() const{
-    return b;
+Point Segment::getA() const {
+
+    return this->a;
 }
 
-void Segment::paint(int color) const
-{
+Point Segment::getB() const {
+
+    return this->b;
+}
+
+void Segment::Paint(int color) const {
+
+    setcolor(color);
     line(a.getX(), a.getY(), b.getX(), b.getY());
 }
 
