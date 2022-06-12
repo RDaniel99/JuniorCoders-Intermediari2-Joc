@@ -10,10 +10,6 @@ class AppManager {
         AppManager();
         void run();
     private:
-        void initGame();
-        void initWindows();
-
-    Game game;
-    WindowManager windowManager;
+        WindowManager windowManager;
 };
 #endif //H_APP_MANAGER

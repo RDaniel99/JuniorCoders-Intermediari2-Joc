@@ -2,7 +2,8 @@
 #define H_GAME
 
 #include "board.h"
-#include "player.h"
+#include "humanplayer.h"
+#include "randomplayer.h"
 
 class Game {
 
@@ -12,7 +13,7 @@ class Game {
         void changePlayer();
         void play();
     private:
-        void initPlayer();
+        void initPlayers(Board *board);
         void initBoard();
         void paintPoints(vector<Point> &points) const;
         pair<int, int> getmouseclick() const;
@@ -22,5 +23,7 @@ class Game {
         Player playerOne;
         Player playerTwo;
         Player* currentPlayer;
+        MODE gameMode;
+
 };
 #endif // H_GAME

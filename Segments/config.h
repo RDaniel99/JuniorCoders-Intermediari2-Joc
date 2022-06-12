@@ -20,4 +20,9 @@ const int DEFAULT_RADIUS = 4;
 
 const int DEFAULT_NUMBER_OF_POINTS = 15;
 
+enum Mode{
+    TWO_PLAYERS,
+    PLAYER_VS_RANDOM
+
+};
 #endif // H.CONFIG
